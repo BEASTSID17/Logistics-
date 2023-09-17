@@ -65,12 +65,17 @@ ul li {
 
 .monav {
     display: none;
+    text-align: right;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .monav ul li {
     list-style-type: none;
-
-
 }
 
 .monav a {
@@ -82,7 +87,7 @@ ul li {
 }
 
 .mobile {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
 }
 
@@ -529,6 +534,10 @@ input[type=submit] {
     display: none;
 }
 
+.monav a{
+    font-size: 20px;
+}
+
 /* MEDIA QUERY */
 /* 375 */
 @media only screen and (min-width: 375px) {
@@ -538,6 +547,10 @@ input[type=submit] {
 
     .info h5 {
         font-size: 22px;
+    }
+
+    .monav a{
+        font-size: 20px;
     }
 
     .info h4,
@@ -677,6 +690,10 @@ input[type=submit] {
 
     .content h3 {
         font-size: 50px;
+    }
+
+    .monav a{
+        font-size: 24px;
     }
 
     .logo #loggie {
